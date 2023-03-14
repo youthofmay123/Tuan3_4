@@ -1,8 +1,7 @@
-.{
+/* *{
     box-sizing: border-box;
-    display: block;
-    width: 1200px;
-}
+
+} */
 #menu-container {
     display: flex;
     justify-content: space-around;
@@ -96,12 +95,16 @@ body{
     padding: 10px;
     width: 100px;
 }
+
 #content .content{
     width: 100%;
     display: flex;
     margin-left: 150px;
     padding-top: 20px;
    
+}
+#banner{
+    width: 1200px;
 }
 #content .content_item{
     position: relative;
@@ -147,15 +150,20 @@ body{
 }
 #footer{
     display: flex;
-    width: 100%;
+    width: 1440px;
+    background-color: rgb(43, 39, 39);
+    height: 500px;
+    
 }
 #footer .f-left{
     display: flex;
     margin-left: 100px;
     width: 50%;
+    justify-content: center;
    
 }
     
 #footer .ahc{
    width: 30%;
+   color: #fff;
 }
